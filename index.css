@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: #EFF2F9;
+    height: 100vh;
+}
+
+.card {
+    width: 1170px;
+    height: 800px;
+    background: #FFF;
+    box-shadow: 20px 20px 40px 0px rgba(81, 91, 117, 0.25);
+    padding: 60px 0 80px;
+}
+
+.product-image-block {
+    width: 540px;
+    border-right: 2px solid rgba(20, 20, 20, 0.15);
+}
+
+.selected-preview {
+    width: 80px;
+    height: 80px;
+    background: #FFF;
+    box-shadow: 8px 8px 16px 0px rgba(81, 91, 117, 0.25);
+}
+
+.main-title {
+    color: rgba(20, 20, 20, 0.90);
+    font-family: Montserrat, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0.38px;
+}
+
+.subtitle {
+    color: rgba(20, 20, 20, 0.40);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+}
+
+.text {
+    color: rgba(20, 20, 20, 0.70);
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.18px;
+    margin-top: 60px;
+}
+
+.title {
+    color: rgba(20, 20, 20, 0.40);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+}
+
+.color-options {
+    margin-top:  65px;
+}
+
+.color-options ul {
+    margin-top: 23px;
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+}
+
+.blue {
+  background: #013C7D;
+}
+
+.green {
+  background: #63CBA7;
+}
+
+.red {
+   background: #D52F29;
+}
+
+.black {
+    background: #141414;
+}
+
+.yellow {
+    background: #F2C723;
+}
+
+.selected-color {
+    background: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 4px 8px 16px 0px rgba(81, 91, 117, 0.25);
+}
+
+.price-wrapper {
+    margin-top: 73px;
+}
+
+.select {
+    width: 83px;
+    color: rgba(20, 20, 20, 0.80);
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    border: none;
+    appearance: none;
+    background-image: url("./assets/select_arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 0 top 50%;
+}
+
+.price {
+    color: rgba(20, 20, 20, 0.80);
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 510px;
+    height: 70px;
+    background: #141414;
+    color: #FFF;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    border: none;
+    outline: none;
+    margin-top: 75px;
+}
